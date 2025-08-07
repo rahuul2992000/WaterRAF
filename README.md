@@ -1,4 +1,4 @@
 # WaterRAF
 Retrieval-Augmented Water Level Forecasting for Everglades
 
-![WaterRAF Framework](Visualizations/framework.pdf)
+![WaterRAF Framework](Visualizations/framework.png)
