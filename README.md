@@ -38,3 +38,26 @@ WaterRAF/                       - this repository root
 │   └── Visualization-Figure5-28days.ipynb
 ├── figure/                    - static framework image for paper/README
     └── framework.png
+```
+
+## Usage
+
+- Run the models by executing the three exploration notebooks under the `ChronosBolt/` folder:
+  1. `Strategy-A-ChronosBolt.ipynb`  
+     _“Averaging-First, Augmenting-Later”_  
+     Retrieves windows, computes the pointwise average over the retrieved windows, averaged context is concatenated with the original input, then forecasts
+nal input,
+retrieved candidates,.
+  2. `Strategy-B-ChronosBolt.ipynb`  
+     _“Augmenting-First, Averaging-Later”_  
+     Retrieves windows, runs Chronos on each, then averages the forecasts.
+  3. `Strategy-C-ChronosBolt.ipynb`  
+     _“Long-Context Concatenation”_  
+     Concatenates all retrieved windows and original context into one long input, then forecasts 
+
+- **Key configuration variables** (in your driver script or top of each notebook):
+  - `--history_length` (H): number of past days fed to the model (default: 100)  
+  - `--prediction_length` (P): forecast horizon in days (e.g. 7, 14, 21, 28)  
+  - `--top_n`: number of retrieval windows to use  
+    - `0` → pure Chronos baseline (no retrieval)  
+    - `>0` → retrieval-augmented forecasting  
