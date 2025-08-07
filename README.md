@@ -54,8 +54,8 @@ WaterRAF/                       - this repository root
      Concatenates all retrieved windows and original context into one long input, then forecasts 
 
 - **Key configuration variables** (top of each notebook):
-  - `--input` (H): number of past days fed to the model (default: 100)  
-  - `--prediction_length` (P): forecast horizon in days (e.g. 7, 14, 21, 28)  
-  - `--top_n`: number of retrieval windows to use  
+  - `input`: number of past days fed to the model (default: 100)  
+  - `prediction_length`: forecast horizon in days (e.g. 7, 14, 21, 28)  
+  - `top_n`: number of retrieval windows to use  
     - `0` → pure Chronos baseline (no retrieval)  
     - `>0` → retrieval-augmented forecasting  
