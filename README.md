@@ -36,7 +36,7 @@ WaterRAF/                       - this repository root
 │   ├── Visualization-Figure5-14days.ipynb
 │   ├── Visualization-Figure5-21days.ipynb
 │   └── Visualization-Figure5-28days.ipynb
-├── figure/                    - static framework image for paper/README
+└── figure/                    - static framework image for README
     └── framework.png
 ```
 
