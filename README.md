@@ -6,6 +6,9 @@ Here's an overview of our Retrieval-Augmented Forecasting (RAF) framework for wa
 
 ## Installation
 
+1. Create & activate your Python environment:
+    - `conda create -n ENV_NAME python=3.10`
+    - `conda activate ENV_NAME`
 
 2. Install dependencies:
     - `pip install -r requirements.txt`
