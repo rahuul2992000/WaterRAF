@@ -63,4 +63,6 @@ WaterRAF/                       - this repository root
 ## Results
 Here's a table displaying the performance of the models across 5 stations (NP205, P33, G620, NESRS1, NESRS2) for lead times of 7, 14, 21, and 28 days. The
 first four baseline models are task-specific, followed by four pre-trained time series foundation models. The last two are our RAF methods with similarity-based and mutual information-based implementations. The best results are in bold. 
-![WaterRAF Framework](figure/main-results-RAF.png)
+<p align="center">
+  <img src="figure/main-results-RAF.png" alt="Main results comparing task-specific and pre-trained foundation models for time series" />
+</p>
