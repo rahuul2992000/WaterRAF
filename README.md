@@ -46,8 +46,6 @@ WaterRAF/                       - this repository root
   1. `Strategy-A-ChronosBolt.ipynb`  
      _“Averaging-First, Augmenting-Later”_  
      Retrieves windows, computes the pointwise average over the retrieved windows, averaged context is concatenated with the original input, then forecasts
-nal input,
-retrieved candidates,.
   2. `Strategy-B-ChronosBolt.ipynb`  
      _“Augmenting-First, Averaging-Later”_  
      Retrieves windows, runs Chronos on each, then averages the forecasts.
