@@ -53,8 +53,8 @@ WaterRAF/                       - this repository root
      _“Long-Context Concatenation”_  
      Concatenates all retrieved windows and original context into one long input, then forecasts 
 
-- **Key configuration variables** (in your driver script or top of each notebook):
-  - `--history_length` (H): number of past days fed to the model (default: 100)  
+- **Key configuration variables** (top of each notebook):
+  - `--input` (H): number of past days fed to the model (default: 100)  
   - `--prediction_length` (P): forecast horizon in days (e.g. 7, 14, 21, 28)  
   - `--top_n`: number of retrieval windows to use  
     - `0` → pure Chronos baseline (no retrieval)  
