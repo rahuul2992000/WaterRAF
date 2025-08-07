@@ -17,3 +17,4 @@ Here's an overview of our Retrieval-Augmented Forecasting (RAF) framework for wa
     - `python --version`  # should show Python 3.10.x
     - `pip list`          # confirm key packages are installed
    
+## Directory
