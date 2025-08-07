@@ -18,6 +18,7 @@ Here's an overview of our Retrieval-Augmented Forecasting (RAF) framework for wa
     - `pip list`          # confirm key packages are installed
    
 ## Directory Tree
+```text
 WaterRAF/                       - this repository root
 ├── README.md                   
 ├── requirements.txt            - pinned Python dependencies
