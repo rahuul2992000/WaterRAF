@@ -64,7 +64,7 @@ WaterRAF/                       - this repository root
     - `0` → pure Chronos baseline (no retrieval)  
     - `>0` → retrieval-augmented forecasting  
 
-- **Running the Web Demo Application**
+- **Running the Web Demo Application**  
    _The web interface allows interactive 7-days forecasting with:_
    - Similarity-based RAF (SimRAF)
    - Mutual-Information-based RAF (MIRAF)
