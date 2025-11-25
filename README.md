@@ -65,7 +65,7 @@ WaterRAF/                       - this repository root
     - `>0` → retrieval-augmented forecasting  
 
 - **Running the Web Demo Application**
-   The web interface allows interactive 7-days forecasting with:
+   _The web interface allows interactive 7-days forecasting with:_
    - Similarity-based RAF (SimRAF)
    - Mutual-Information-based RAF (MIRAF)
    - Full retrieval visualization
