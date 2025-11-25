@@ -38,6 +38,8 @@ WaterRAF/                       - this repository root
 │   └── Visualization-Figure5-28days.ipynb
 │
 ├── Web_Demo_Application/      - Web Application demo folder
+│   ├── Demo.png               - Application GUI Visual  
+│   ├── Demo2.png              - Application GUI Visual  
 │   └── app.py                 - Streamlit application for RAF demo
 │
 └── figure/                    - static framework image for README
