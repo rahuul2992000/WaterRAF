@@ -63,7 +63,7 @@ AUG_LEN = 2 * HISTORY_LENGTH + PREDICTION_LENGTH
 
 # !!!!!!!!!!!!!!!!!! CRUCIAL !!!!!!!!!!!!!!!!!!
 # !!! UPDATE THIS PATH TO YOUR CSV FILE !!!
-DATA_FILEPATH = "/aul/homes/rrang016/Downloads/final_2025_data.csv"
+DATA_FILEPATH = "data file path"
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 # ----------------------------------------------------------------------
