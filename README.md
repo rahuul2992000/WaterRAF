@@ -37,7 +37,7 @@ WaterRAF/                       - this repository root
 │   ├── Visualization-Figure5-21days.ipynb
 │   └── Visualization-Figure5-28days.ipynb
 │
-├── Web Demo Application/      # Web Application demo folder
+├── Web_Demo_Application/      # Web Application demo folder
 │   └── app.py                 # Streamlit application for RAF demo
 │
 └── figure/                    - static framework image for README
