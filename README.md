@@ -73,7 +73,7 @@ WaterRAF/                       - this repository root
    - Plots for historical context + forecast + actual truth
 
 - **Run the Application**
-  - `cd Web Demo Application`
+  - `cd Web_Demo_Application`
   - `streamlit run app.py`
 
 - **The app allows users to:**
