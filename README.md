@@ -64,6 +64,25 @@ WaterRAF/                       - this repository root
     - `0` → pure Chronos baseline (no retrieval)  
     - `>0` → retrieval-augmented forecasting  
 
+- **Running the Web Demo Application**
+ - The web interface allows interactive 7-days forecasting with:
+   - Similarity-based RAF (SimRAF)
+   - Mutual-Information-based RAF (MIRAF)
+   - Full retrieval visualization
+   - Baseline vs RAF comparison
+   - Plots for historical context + forecast + actual truth
+
+- **Run the Application**
+  - `cd WebDemo`
+  - `streamlit run app.py`
+
+- **The app allows users to:**
+  - Select a station
+  - Choose SIM-RAF or MI-RAF
+  - Pick a cutoff date
+  - Visualize
+
+
 ## Results
 Here's a table displaying the performance of the models across 5 stations (NP205, P33, G620, NESRS1, NESRS2) for lead times of 7, 14, 21, and 28 days. The
 first four baseline models are task-specific, followed by four pre-trained time series foundation models. The last two are our RAF methods with similarity-based and mutual information-based implementations. The best results are in bold. 
