@@ -4,14 +4,9 @@ import os
 
 # --- New Debugging Block ---
 # Get the full path to your home directory and the project folder
-adapter_path = os.path.expanduser('~/Retrieval-Augmented-Time-Series-Forecasting')
+adapter_path = os.path.join(os.path.dirname(__file__), "Retrieval-Augmented-Time-Series-Forecasting")
 full_file_path = os.path.join(adapter_path, 'chronos_bolt_adapter.py')
 
-# Print to your console (for you)
-print(f"Checking for adapter at: {full_file_path}")
-
-# Write to the app (for you)
-st.write(f"Checking for file at: `{full_file_path}`")
 
 # Check if the file actually exists
 if os.path.exists(full_file_path):
